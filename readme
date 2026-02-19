@@ -1,0 +1,58 @@
+🚀 Digital Clock & Weather Dashboard
+A sleek, neon-themed digital clock built with Vanilla JavaScript. This project serves as a functional dashboard widget that provides real-time timekeeping, date display, and live weather updates.
+
+🌟 Features
+Real-time Clock: Displays hours, minutes, and seconds.
+
+Toggleable Format: Switch between 12-hour (AM/PM) and 24-hour modes.
+
+Persistent Settings: Remembers your preferred time format even after refreshing the page using localStorage.
+
+Live Weather: Fetches current temperature and weather conditions via the OpenWeatherMap API.
+
+Dynamic Date: Automatically updates the day and month.
+
+Responsive Design: Centered, dark-mode aesthetic that looks great on any screen.
+
+🛠️ Tech Stack
+HTML5: Structure and semantics.
+
+CSS3: Flexbox layout and neon glow effects.
+
+JavaScript (ES6+): DOM manipulation, Async/Await for API calls, and State Management.
+
+📸 Preview
+Tip: You can add a screenshot of your clock here later!
+
+🚀 Getting Started
+Prerequisites
+To get the weather feature working, you will need an API key:
+
+Get a free API key from OpenWeatherMap.
+
+Open script.js and replace "YOUR_API_KEY_HERE" with your actual key.
+
+Installation
+Clone this repository:
+
+Bash
+git clone https://github.com/your-username/digital-clock.git
+Navigate to the project folder:
+
+Bash
+cd digital-clock
+Open index.html in any modern web browser.
+
+🧠 What I Learned
+Through this project, I practiced:
+
+Asynchronous Programming: Using fetch with async/await to handle external data.
+
+State Management: Toggling application logic based on user interaction.
+
+Browser Storage: Using localStorage to create a seamless user experience.
+
+CSS Flexbox: Mastering alignment and centering techniques.
+
+📝 License
+This project is open-source and available under the MIT License.
