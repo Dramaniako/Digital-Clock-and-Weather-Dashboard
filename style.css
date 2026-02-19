@@ -1,0 +1,63 @@
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#clock-display {
+    color: #00ff00;
+    /* Classic neon green */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 5rem;
+    background: #333;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 20px 1px rgb(3, 98, 3);
+}
+
+#toggle-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    transition: 0.3s;
+}
+
+#toggle-button:hover {
+    background: #00ff00;
+    color: #1a1a1a;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+#date-display {
+    color: #00cc00;
+    font-family: 'Courier New', monospace;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+#weather-display {
+    color: #00ccff;
+    /* Blue color for weather */
+    font-family: 'Courier New', monospace;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
